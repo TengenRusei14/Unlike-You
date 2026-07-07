@@ -355,7 +355,205 @@ label route_choice:
             jump ruby_route
 
 label mina_route:
-    return
+    "I started following them"
+    "I saw them at the cafe"
+    "Ruby was...beautiful"
+    "Long, flowing hair"
+    "Soft features"
+    "Delicate Hands"           
+    "She laughed gently and touched her hand"
+
+    "And I felt my blood boil"
+
+    m "How dare he"
+    m "How dare he touch her"
+    m "How dare he make her smile lke that"
+    m "SHE'S MINE"
+
+    "I followed them to the park"
+    "They walked hand in hand"
+    "She looked at him like she was the sun"
+
+    "And I realized...."
+    "She never looked at me like that"
+
+    "All those years of protection"
+    "All those years of love"
+    "And she looked at a stranger like he was everything"
+
+    "Why"
+    "Why wasn't I enough?"
+
+    "I went home that night and cried"
+    "I cried until there were no tears left"
+    "Then got angry"
+    "I got so angry"
+
+    m "She's mine"
+    m "She's always been mine"
+    m "I protected her, I loved her, I sacrificed everything for her"
+    m "And she chooses HIM"
+
+    "I looked at the ring I bought"
+    "The ring I was going to give her"
+    "The ring that was supposed to make her mine"
+
+    "But she was never mine"
+    "She was never going to be mine"
+    "Because I was too afraid to tell her how I felt"
+
+    "And now..."
+    "Now it was too late"
+
+    "I couldn't take it anymore"
+    "I had to see her, I had to her in the eyes"
+    "I had to know..."
+
+    "So I asked Jose if I could meet her and she agreed"
+    "So I prepared myself and went to the local cafe"
+    "And there she was..."
+
+    m "You must be Ruby"
+
+    r "Ah, you must be Mina"
+    r "Jose talks about you all the time"
+    r "You're his childhood friend, right"
+
+    m "I'm more than a friend, I've known him for 15 years"
+    m "I've protected him and I love him"
+
+    r "Oh, I know"
+    r "He tells me everything"
+    r "How you followed him around, how you scared away anyone who tried to get close to him"
+    r "And how you treated him like a possesion"
+
+    m "That's not true!"
+
+    r "Isn't it?"
+    r "He told me he felt trapped, Mina"
+    r "He told me you smothered him, He told me he needed space"
+    r "And I....I gave him space"
+    r "I let him breathe, I let him be himself"
+
+    "His words stabbed me like knifes"
+
+    r "You know why he chose me?"
+    r "Because I accepted him for who he is"
+    r "I don't try change him, I don't try possess him"
+    r "I just.... love him"
+
+    "She smiled"
+    "That soft, innocent smile"
+    "And I wanted to kill her"
+    "But I couln't at least not yet"
+
+    "I thought about it for weeks"
+    "Every scenario and possibility out there"
+
+    "If I killed him, he would be free"
+    "If I killed him, he would be mine"
+
+    "But he would be sad"
+    "He would grieve"
+    "And then he would hate me"
+
+    "Unless..."
+    "I killed him too, unless I set him free from this world"
+    "Unless I made sure he was mine forever"
+
+    "In death, he could never leave me"
+    "In death, he would be mine eternally"
+
+    "It was twisted, It was wrong"
+    "But it was the only way"
+
+    "He could never be with her"
+    "He could never be without me"
+    "He could only be mine"
+
+    "So I made my plan"
+    "I bought a knife"
+    "I followed them to their date"
+    "And I waited"
+    
+    "The park was empty, the moon was full"
+    "They were sitting on a bench"
+    "Holding hands, kissing"
+
+    "I crept closer, my heart was pounding"
+    "but my hands were locked in"
+
+    "I could hear his laugh"
+    "That beautiful, beautiful laugh"
+    "The laugh I would never hear again"
+
+    "And then...."
+    "I struck"
+
+    "Ruby fell first"
+    "He didn't even scream"
+    "He just... collapsed"
+    "Blood pooling underneath him"
+
+    "Jose turned, Her eyes were wide"
+    "Horrified"
+
+    j "Mina...?"
+    j "What...what did you do?"
+
+    m "I'm setting you free"
+    m "I'm saving you"
+
+    "She tried to run, but I was too fast"
+    "I grabbed her, I held her close"
+    "I told her I loved her"
+
+    "And then..."
+    "I plunged the knife into her heart"
+
+    j "...Why?"
+
+    "She whispered those words"
+    "And then she was gone"
+
+    "I sat there, Holding her body"
+    "Crying, Sobbing"
+    "Wishing I had said something sooner"
+    "Wishing I had confessed"
+
+    "But it was too late"
+    "It was always too late"
+
+    show text "Current Time" with dissolve
+    pause(1.5)
+    hide text with dissolve
+
+    p "And that's what happened?"
+    p "You killed them both because you loved her?"
+
+    m "....Yes"
+
+    p "Mina..."
+    p "Love isn't about possession"
+    p "Love isn't about control"
+    p "Love is about letting go"
+    p "If you truly loved her...."
+    p "You would have let her be happy"
+
+    "He was right"
+    "He was so right"
+    "But it didn't matter anymore"
+
+    "Because she was gone"
+    "And I was alone"
+    "The way I always feared"
+
+    show text "Mina End" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
+
+    jump ending_choice
 
 label jose_route:
     return
@@ -363,16 +561,77 @@ label jose_route:
 label ruby_route:
     return
 
+label ending_choice:
+    scene bg black
+    with fade
 
+    "Three perspectives"
+    "Three sides of the same tragedy"
 
+    "Now...."
+    "You must decide how the story ends"
 
+    menu:
+        "Which ending do you want to see"
+        "The Murder":
+            jump ending_murder
+        "The Dream":
+            jump ending_dream
 
+label ending_murder:
+    m
 
+label ending_dream:
+    m
 
+label credits:
+    scene bg black
+    with fade
 
+    show text "Unlike You" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
 
+    show text "A Visual Novel" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)    
 
+    show text "Created for the Toxic Yuri Visual Novel Game Jam" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
 
+    show text "Story and Writing : THE DOCTOR" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
 
+    show text "Art : Slash" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
 
+    show text "Music : THE DOCTOR" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
+
+    show text "Programming : THE DOCTOR" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
+
+    show text "TO EVERYONE WHO HAS EVER FELT UNSEEN \n YOU ARE NOT ALONE" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
+
+    show text "THANK YOU FOR PLAYING!" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1)
+
+    return
 
