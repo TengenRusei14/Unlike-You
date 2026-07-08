@@ -556,7 +556,225 @@ label mina_route:
     jump ending_choice
 
 label jose_route:
-    return
+    "My name is Josephine"
+    "But I've always hated that name"
+    "It's too soft, too feminine"
+    "Too... wrong"
+
+    "Ever since I was a child, I felt different"
+    "I didn't fit in"
+    "I didn't feel like the other girl"
+    "I felt like a girl trapped in a girl's body"
+
+    "When I was 5 years old, I refused to wear dresses"
+    "My mother cried"
+    "She said I was a pretty girl and I was being ungrateful"
+    "But I did not feel pretty"
+    "I felt wrong"
+
+    "When I was 7,  cut my hair short"
+    "My father yelled at me"
+    "He said I looked like a boy"
+    "And I thought... 'Good'"
+
+    "When I was 9, I started wearing boy's clothes"
+    "I was punished, I was told to act like a lady"
+    "I was told to be normal"
+
+    "But I wasn't normal and I would never be"
+    "Then we moved to a new house"
+    "And I met Mina"
+
+    "She was small and shy"
+    "But she looked at me like I was the most beutiful thing she had ever seen"
+    "And for the first time...."
+    "I felt accepted"
+
+    "We became best friends"
+    "She never questioned my clothes, she never questioned my short hair"
+    "She just... accepted me"
+
+    "I thought she understood"
+    "I thought she saw me for who I was"
+    "But I was wrong"
+    
+    "As we grew up, things changed"
+    "Mina started getting possesive"
+    "She followed me everywhere, she scared anyone who tried to get close to me"
+    "She treated me like I was hers"
+
+    "At first, I thought it was sweet"
+    "I thought she was protecting me"
+    "But then it became suffocating"
+
+    m "Who were you talking to?"
+    m "Why didn't you wait for me?"
+    m "You shouldn't be friends with them"
+
+    "She was everywhere, she was always there"
+    "And I couldn't breathe"
+    "It got so bad that I started having panic attacks"
+    "I couldn't sleep, I couldn't eat"
+    "I felt like I was drowning"
+
+    "My parents sent me to the hospital"
+    "The psychiatric ward"
+    "I stayed there for a year"
+    "I was diagnosed with gender dysphoria and anxiety"
+
+    "It was the best year of my life"
+    "Because for the first time...."
+    "I was surrounded by people who understood"
+    "I learned to accept myself"
+    "I learned that I was allowed to be who I wanted to be"
+
+    "When I came back, I was ready"
+    "I told everyone I wanted to be called Jose"
+    "I told everyone I wanted to be seen as male"
+    "I cut my hair even shorter"
+    "I started binding"
+
+    "And Mina..."
+    "Mina smiled and she accepted me"
+
+    "But I knew, I saw the look in her eyes"
+    "She hated it, she hated who I was becoming"
+    "She wanted the old me"
+    "The girl she fell in love with"
+
+    "And university was supposed to be a fresh start"
+    "But Mina was still there"
+    "Still following me and remaining possesive over me"
+
+    "I felt trapped"
+    "I felt like I would never escape"
+    "And then...."
+    "I met Ruby"
+
+    "We met on the dating app 'Bù xiàng nǐ'"
+    "It means 'Unlike You'"
+    "I thought it was poetic"
+
+    "Ruby was.... beautiful"
+    "He was soft and feminine"
+    "He wore dresses and makeup"
+    "He was a femboy but he was so confident"
+    "So unapologetically himself"
+
+    "And he accepted me, He saw me as a man"
+    "He held my hand, he kissed me"
+    "And for the first tme in my life..."
+    "I felt free"
+
+    j "Ruby... I have to tell you something"
+    j "I'm not... I'm not like other people"
+    j "I was born female"
+    j "But I Identify as male"
+
+    r "I know..."
+    r "I've known since we started talkng"
+    r "It does not matter to me"
+    r "You're Jose"
+    r "The person I fell in love with"
+
+    "I cried, I cred soo much"
+    "Because someone finally saw me"
+    "Someone finally Understood"
+
+    "I knew Mina wouldn't understand"
+    "I knew she would never accept Ruby"
+    "So I hide it"
+    "But then one day..."
+    "I couldn't hide it anymore"
+
+    j "Mina... I have a girlfriend now"
+
+    "The look on her face was devastating"
+    "Pure betrayal and heartbreak"
+
+    "And I felt guilty"
+    "I felt like I had betrayed her"
+    "I knew she wasn't in love with the real me"
+    "But simple a idea of me that she created in her head"
+
+    "But I couln't stop"
+    "I loved Ruby and I needed Ruby"
+    "He was my escape"
+
+    "So Ruby and I started dating"
+    "Not in secret but out in public"
+    "And I knew Mina was watching, following us"
+    "I had a gut feeling she was planning something"
+
+    "I was extremely scared"
+    "But I did not know what to do"
+    "Especially since Mina was my best friend"
+    "She was the one person who had been there with me for the longest time"
+    "I couldn't just abondon her"
+
+    "But I should have"
+    "I should have ran, I should have protected Ruby"
+    "From such an awful fate"
+
+    "It happened at the park"
+    "We were sitting on a bench"
+    "And we were kissing"
+    "And all of a sudden..."
+    "Ruby collapsed"
+
+    "Blood was everywhere so I screamed"
+    "And then I saw her... Mina"
+    "She had a knife"
+    "And her eyes... her eyes were empty"
+
+    j "Mina! What are you doing?"
+
+    m "I'm saving you and setting you free"
+
+    j "From what?"
+
+    m "From him, from the world"
+    m "From everyone who wants to take you away from me"
+
+    "I tried my best to run, but she grabbed me"
+    "She held me close, I could feel her breath on my neck"
+
+    m "I've loved you for the past 15 years"
+    m "You were mine"
+    m "You were always mine"
+
+    j "Mina... please..."
+    j "I was never yours"
+
+    m "I know"
+    m "And because of that I won't allow you to be with anyone else"
+
+    "And then..."
+    "I felt the knife penetrate my body"
+    "And I fell to the ground"
+
+    "As I lay dying"
+    "I thought about everything"
+    "My life, identity, love and fear"
+
+    "I thought about how I had spent my whole life running"
+    "Running from myself, from others and from the truth"
+    "And in the end... I ran too late"
+
+    "I thought about Mina"
+    "My best friend, my protector, my jailer"
+    "And unfortunatly"
+    "My murderer"
+
+    "I should have told her the truth"
+    "I should have told her that I was never the girl she loved"
+    "I was never hers"
+
+    "But I was too scared"
+    "And now...."
+    "I would never get the chance"
+
+    jump ending_choice
 
 label ruby_route:
     return
