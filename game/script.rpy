@@ -777,7 +777,187 @@ label jose_route:
     jump ending_choice
 
 label ruby_route:
-    return
+    "My name is Ruby"
+    "I'm 19 years old"
+    "I'm a computer science major"
+    "And I'm a femboy"
+
+    "I wasn't always like this"
+    "I used to be a normal boy"
+    "But sooner I became bored"
+    "Life was so boring, everything was the same"
+    "Same clothes, personalities basically same everything"
+
+    "So I decided to change"
+    "I grew my hair long and started wearing makeup"
+    "I bought dresses and skirts"
+    "And I became.... beautiful"
+
+    "From that moment on"
+    "People stared at me, whispered about me"
+    "And most important of all people wanted me"
+    "It was exciting, I felt powerful, I felt in control"
+
+    "But the best part..."
+    "The best part was the game"
+
+    "I joined a dating app called Bù xiàng nǐ"
+    "It means 'Unlike You'"
+    "I thought it was fitting"
+    "Because I was unlike everyone"
+    
+    "I started matching with people"
+    "Going on dates, breaking hearts"
+
+    "It was easy, everyone fell for my act"
+    "They saw a beautiful, innocent girl"
+    "They didn't see the real me"
+
+    "Then...."
+    "I met Jose"
+    "Jose was different, labelled as male"
+    "But I knew, I always know"
+
+    "She was so shy"
+    "So unsure of herself"
+    "She had vulnerabilities and that was soo... delicious"
+    
+    "I could see it in her eyes"
+    "The longing and confusion"
+    "The need to be accepted"
+    "She was perfect prey"
+
+    r "Hi there, I'm Ruby"
+
+    j "Oh! Hi! I'm...I'm Jose"
+    j "You're really pretty"
+
+    r "Thank you~"
+    r "You're not so bad yourself"
+
+    "She blushed, so easy"
+    "We went on a few dates"
+    "I played my role perfectly"
+    "Sweet, soft, romantic"
+    "Everything she needed"
+
+    "She told me about Mina"
+    "Her best friend, stalker and prison fuard"
+    "I could see the pain in her eyes"
+    "The fear, the guilt"
+
+    "And I knew I could use that"
+
+    r "Mina sounds so possesive"
+    r "You should be careful"
+
+    j "She's not... she's not like that"
+    j "She just cares about me"
+
+    r "Are you sure?"
+    r "It sounds like she wants to own you"
+
+    "Jose was silent, She knew I was right"
+    "She just didn't want to admit it"
+
+    "I kissed her forehead"
+    "Gentle, Soft, Reassuring"
+
+    r "I'm here now, I'll protect you"
+    r "I'll never treat you like a possesion"
+
+    "She cried then thanked me"
+    "I could tell that she had already fallen in love with me"
+    "So easy"
+
+    "But I wasn't in love with her, I never was"
+    "I just loved the game and the chase"
+    
+    "Jose was a problem"
+    "She was broken and confused and I wanted to fix her"
+    "I wanted to make her mine"
+    "Not because I loved her but because I could"
+
+    "And then... I met Mina"
+    "She confronted me at the cafe"
+    "She was angry, so angry"
+    
+    m "You're Ruby?"
+
+    r "Ah, you must be Mina"
+    r "Jose talks about you all the time"
+    r "You're her childhood friend, right?"
+
+    "I could see the jealousy in her eyes"
+    "She was just like me, she wanted to own Jose"
+    "She wanted to control her"
+    "But I was better at it"
+
+    m "I love her"
+
+    r "Oh, I know"
+    r "She tells me everything"
+
+    "I told her exactly what she did not want to hear"
+    "How Jose felt trapped, how she needed space"
+    "How I was the one who saved her"
+    "And the look on Mina's face... Priceless"
+
+    r "You know why she chose me?"
+    r "Because I accept her for who she is"
+    r "I don't try change her nor possess her"
+    r "I just... love her"
+
+    "Mina walked away, she was furious"
+    "She was broken and most importantly she was planning something"
+    "And I knew... This was getting interesting"
+
+    "I knew Mina would try something"
+    "I could see it in her eyes"
+    "But I didn't care, I was ready"
+
+    "I had been playing this game for many years"
+    "And I have always won"
+    "But not this time..."
+
+    "We were at the park, Jose and I"
+    "She was so happy"
+    "I saw Mina approaching with a knife"
+    "And I laughed"
+
+    "I laughed because I won"
+    "I had broken her and taken everything away from her"
+
+    "And then...."
+    "The knife went in"
+    "Quickly and almost painless and in a moment of seconds..."
+    "I collapsed"
+    "I could hear Jose and Mina screaming"
+
+    "And as I lay there dying I begin to think of everything"
+    "All the games, control and power"
+    "In the end... I was just another player"
+    "Another life cut short"
+
+    "I thought about Jose"
+    "The girl I never loved, I used and most importantly....."
+    "Destroyed"
+
+    "I thought about Mina"
+    "The mad lover an murderer"
+    "Who won in the end"
+
+    "But did she really win"
+    "She killed us both and now was alone"
+    "I smiled"
+    "Even the darkness told me"
+
+    show text "CHECKMATE" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1.5)
+
+    jump ending_choice
 
 label ending_choice:
     scene bg black
@@ -791,16 +971,181 @@ label ending_choice:
 
     menu:
         "Which ending do you want to see"
-        "The Murder":
+        "Mystery #1":
             jump ending_murder
-        "The Dream":
+        "Mystery #2":
             jump ending_dream
 
 label ending_murder:
-    m
+    p "SO...."
+    "You killed them both"
+
+    m "... Yes"
+
+    p "And how do you feel now, Mina?"
+    p "Now that they're gone and you'll never see them again"
+
+    "I thought about it, about Jose"
+    "Her smile, her laugh, her voice"
+
+    "I thought about Ruby"
+    "His beauty, his confidence and his love for her"
+
+    "And I thought about myself"
+    "The monster I had become"
+
+    m ".... Empty"
+    m "I feel.... empty"
+
+    p "And what about the love?"
+    p "The love you felt for her"
+
+    m "Is it love?"
+    m "If you destroy what you love?"
+    m "If you kill the goddess you claim to adore"
+
+    p "No, Mina"
+    p "That's not love, that's obsession"
+    p "And obsession is just love that forgot to let go"
+
+    "I cried"
+    "For the first tme in a long time"
+    "Not for myself, Jose or Ruby"
+
+    "I cried for what could have been"
+    "If I had confessed, If I had let go"
+    "If... I had been brave"
+
+    "But it was too late"
+    "I was sentenced to 25 years to life"
+    "I'm in a cell now where I'll never see the sun"
+    "Nor her again"
+
+    "But sometimes before I sleep "
+    "When there is no noise and lights are off"
+    "I see her face"
+
+    "Jose"
+    "My Josephine, my angel, my victim"
+    "And I whsisper to the darkness"
+
+    m "I'm sorry"
+    m "I'm so sorry"
+    m "I loved you"
+    m "I loved you more than anything"
+    m "And I still do"
+
+    "But love is not enough"
+
+    show text "IT NEVER WAS" with dissolve
+    pause(1.5)
+    hide text with dissolve
+    pause(1.5)
+
+    jump credits
 
 label ending_dream:
-    m
+    "I open my eyes"
+    "Everything is bright and white"
+    "I'm in a hospital"
+    "I can hear the beeping of machines and the smell of antiseptic"
+
+    "And then..."
+    "I see her"
+
+    "Jose, she's sleeping"
+    "Her head resting on my bed, her hand holding mine"
+    "She looks peaceful but tired"
+
+    m "....Jose?"
+
+    "She raises her head, her eyes open and she sees me"
+    "Tears immediatly fill her eyes"
+
+    j "Mina!"
+    j "Mina, you're awake!"
+    j "Oj my god, you're awake"
+
+    "She hugs me"
+
+    j "I thought you were gone"
+    j "I thought I had lost you"
+    j "I was so scared"
+
+    m ".... What Happened?"
+
+    j "You were in a coma, Mina"
+    j "For 3 years after a serious car accident"
+    j "You... you nearly died"
+
+    "A car accident?"
+    "That cannot be right"
+    "I remember..."
+    "I remember..."
+
+    "The knife"
+    "The blood"
+    "The murder"
+
+    "But those may have been horrible dreams"
+    "Horrible, terrible dreams"
+    "Or were they?"
+
+    j "The doctors said you might never wake up"
+    j "But I came here daily never giving up hope"
+    j "I spoke to you about everything"
+    j "My life, my identity and how I felt"
+
+    m ".... You did"
+
+    j "YES!"
+    j "I told you how scared and confused I was"
+    j "How  wanted to be seen for who I really am"
+
+    "She took my hands, her eyes were sincere"
+
+    j "Mina... I love you"
+    j "In fact I've always loved you"
+    j "But I was scared of what you would think, scared of being myself"
+
+    "She's... she's telling me this now?"
+    "After everything, After that horrible dream"
+
+    j "When I thought I was losing you I began to realize something"
+    j "Life is too short to be scared"
+    j "Life is too scared to hide"
+    j "So I want to be honest with both you and me"
+    j "I love you"
+
+    "I smiled then cried then held her hand"
+
+    m "I love you too, Jose"
+
+    j "I know, I was just too blind to see it"
+
+    "And for the first time in my life..."
+    "I felt free"
+
+    "Years passed and Jose and I got married"
+    "And Ruby..."
+    "He was also a real person"
+    "More specifcally Jose's friend"
+
+    "The dreams were just dreams"
+    "The nightmares were just nightmares"
+
+    "But sometimes I wonder"
+    "What if it was real"
+
+    "But that does not matter"
+    "Because my love story is 'UNLIKE YOU'"
+
+    show text "The end" with dissolve
+    pause(3.0)
+    hide text with dissolve
+    pause(1.0)
+
+    jump credits
 
 label credits:
     scene bg black
