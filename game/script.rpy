@@ -1,8 +1,13 @@
-﻿init python:
-    mina_obsession = 0
-    jose_identity = 0
-    ruby_manipulation = 0
-    route_chosen = ""
+﻿image case = Transform("images/case.jpeg", zoom=0.98)
+image detective = Transform("images/detective.jpeg", zoom=1)
+image hospital = Transform("images/hospital.jpeg", zoom=0.98)
+image jose = Transform("images/jose.png", zoom=1)
+image mina = Transform("images/mina.png", zoom=1)
+image minaroom = Transform("images/minaroom.jpeg", zoom=0.98)
+image park = Transform("images/park.jpeg", zoom=0.98)
+image police = Transform("images/police.png", zoom=0.98)
+image ruby = Transform("images/ruby.png", zoom=1)
+image teacher = Transform("images/teacher.png", zoom=1)
 
 define m = Character("Mina", color="#ff6b6b")
 define j = Character("Jose", color="#4ecdc4")
@@ -14,10 +19,14 @@ define voice = Character("???", color="#ffffff")
 define n = Character("Narrator", color="#d4d4d4")
 
 label splash:
-    show text "Valerian Crow X Two Souls Studio's \n Presents" with dissolve at centre
+    show text "Valerian Crow X Two Souls Studio's \n Presents" with dissolve
     pause(2)
     hide text with dissolve 
     pause(2)
+    show text "UNLIKE YOU" with dissolve 
+    pause(1.5)
+    hide text with dissolve 
+    pause(1.5)
     return
 
 label start:
@@ -29,18 +38,25 @@ label start:
     show text "Victim #1: Jose" with dissolve
     pause(1.5)
     hide text with dissolve
+    pause(1.5)
 
+    scene case
+    show jose at right
     tv "The first victim has been identified as Jose, age 20"
     tv "A college student and barista at the local SUmmer Valley Cafe"
     tv "...And her unrequited love"
+    hide jose with dissolve
+    hide scene case
 
     show text "Victim #2: Ruby" with dissolve
     pause(1.5)
     hide text with dissolve
 
+    show ruby at right
     tv "The second victim has been identified as Ruby, age 19"
     tv "A computer science major at Summer Valley University"
     tv "Ruby was Jose's girlfriend and Mina's romantic rival"
+    hide ruby with dissolve
 
     tv "The police state the murders may have been caused by obsessive love and possesiveness"
     tv "Mina is currently being questioned by Professor Tengen Ruise"
@@ -84,6 +100,8 @@ label start:
     n "You did it"
     n "And would do it again"
 
+    scene case
+    show detective at center
     p "Can ya keep ya voice levels down"
     p "I'm tryna think here"
 
@@ -95,8 +113,12 @@ label start:
     p "Now that you're done making noise"
     p "Let's get straight into it"
 
+    hide detective
+    show mina at center
     m "I have nothing to say"
 
+    hide mina
+    show detective at center
     p "Why don't we start from the begining"
 
     menu:
@@ -117,7 +139,7 @@ label start:
             p "That's the first step"
             p "Why not start from the beginning"
 
-label commmon route:
+label common_route:
     "I first met Jose 15 years ago"
     "When her family moved into the house next door"
 
@@ -137,20 +159,30 @@ label commmon route:
 
     "She was the prettiest girl I had ever seen"
 
+    show jose at center
     j "Hi there"
 
+    hide jose
+    show mina at center
     m "Oh hi, how are you?"
 
+    hide mina
+    show jose at center
     j "I'm great thanks!"
     j "My name is Josephine but everyone calls me Jose"
     j "I'm new here so I hope we can be friends"
 
+    hide jose
+    show mina at center
     m "Sure I'd love to"
 
+    hide mina
     v "MINAA!!!"
     v "Oh you sneaky little bastard running off when you have work to do"
     
+    show mina at center
     m "Ahhh, bye Jose! I'll see you next time"
+    hide mina
 
     "I ran back home"
     "And got the beating of my life"
@@ -170,8 +202,11 @@ label commmon route:
 
     "But the whole night, I just wanted to be alone with her"
 
+    show mina at center
     m "Come on, Jose!, Let me show you my room"
+    hide mina
 
+    scene minaroom
     "I grabbed her hand and dragged her upstairs"
     "We played until dinner was over"
     "And from that night on..."
@@ -202,6 +237,7 @@ label commmon route:
     "She would love me back"
 
     "Then it happened"
+    scene hospital
     "Jose began having mental health issues and was later hospitalized for a year"
     "That was the final year of primary school"
     "And the longest year of my life"
@@ -230,7 +266,10 @@ label commmon route:
     "Then came 3th of June 2024"
     "The day everything shattered"
 
+    scene minaroom
+    show jose at center
     j "MINAA!!! Wake up! We're going to be late for class!"
+    hide jose
 
     "I opened my eyes"
     "She was looking at me beside my bed, already dressed"
@@ -244,22 +283,38 @@ label commmon route:
             "I couldn't be late, not today"
             "Today was her birthday and I had a plan"
             "A confession"
+            show jose at center
             j "Thank god for once you actually liistened!"
+            hide jose
+            show mina at center
             m "Happy Birthday, Josephine"
+            hide mina
+            show jose at center
             j "Aww, you remembered!"
             j "But hurry up! We're going to be late on our first day"
+            hide jose
         "Sleep more":
+            show mina at center
             m "Let me sleep a bit more... I'm tired"
+            hide mina
             "I wasn't tired, I was scared"
             "Today was the day I was going to confess"
             "And I was terrified"
+            show jose at center
             j "There's no tme to sleep, Mina"
             j "We're going to be late for our fisrt day at university"
+            hide jose
+            show mina at center
             m "I completely forgot about that..."
+            hide mina
             "I scrambled out of bed almost ruining everything"
             "I had to tell her today"
+            show mina at center
             m "Happy Birthday by the way"
+            hide mina
+            show jose at center
             j "Thanks! Now hurry up!"
+            hide jose
 
     "I began to dress quickly and leave the house"
     "Jose was outside waiting for me"
@@ -271,17 +326,23 @@ label commmon route:
 
     "Until one sentence made me snap back into all of it"
 
+    show jose at center
     j "I have a girlfriend now"
+    hide jose
 
     "Everything stopped, the world around me had shattered"
     "My heart....it stopped beating"
 
+    show mina at center
     m "What?!"
     m "When? How did this happen?"
+    hide mina
 
+    show jose at center
     j "We met on a dating app called Bù xiàng nǐ"
     j "He took me out 3 days ago"
     j "I couln't tell you since you were busy at the gym all day"
+    hide jose
 
     "3 Days"
     "3 Days and she was already in love"
@@ -292,27 +353,41 @@ label commmon route:
     menu:
         "What do you say"
         "I'm happy for you":
+            show mina at center
             m "I'm....I'm really happy for you Jose"
             m "Really, I am"
+            hide mina
             "I lied through my teeth, my heart was bleeding"
             "But I smiled, because that's what she wanted"
             "If she was happy then maybe....that was enough"
             jump route_choice
         "Don't trust anyone you meet online":
+            show mina at center
             m "Jose....don't trust anyone you meet online"
             m "You don't know who he really is"
+            hide mina
+            show jose at center
             j "Mina, don't be like that!"
             j "He's not like that!"
+            hide jose
+            show mina at center
             m "How do you know? You've only known him for 3 days"
+            hide mina
+            show jose at center
             j "Because.... when I'm with him, I feel like myself"
             j "The real me"
             j "Don't you want me to be happy"
+            hide jose
             "I wanted her to be happy"
             "But I wanted her to be happy WITH ME!!!"
             "Not some stranger, not with some....girl!"
+            show mina at center
             m "....  just don't want you to get hurt"
+            hide mina
+            show jose at center
             j "I won't"
             j "Because Ruby would never hurt me"
+            hide jose
             "She said it with such conviction as if she knew him her whole lfe"
             "As if I had never been there"
             jump route_choice
@@ -329,11 +404,12 @@ label route_choice:
     pause(1.5)
     hide text with dissolve
 
+    n "Whose perspective do you wish to play"
+    n "This affects how you see the story"
+    n "It is recommended you start with Mina then Jose then Ruby"
+    n "But th choice is yours"
+
     menu:
-        n "Whose perspective do you wish to play"
-        n "This affects how you see the story"
-        n "It is recommended you start with Mina then Jose then Ruby"
-        n "But th choice is yours"
         n "Whose perspective do you wish to play"
         "Mina's Perspective":
             $ route_chosen = "mina"
@@ -365,10 +441,12 @@ label mina_route:
 
     "And I felt my blood boil"
 
+    show mina at center
     m "How dare he"
     m "How dare he touch her"
     m "How dare he make her smile lke that"
     m "SHE'S MINE"
+    hide mina
 
     "I followed them to the park"
     "They walked hand in hand"
@@ -389,10 +467,12 @@ label mina_route:
     "Then got angry"
     "I got so angry"
 
+    show mina at center
     m "She's mine"
     m "She's always been mine"
     m "I protected her, I loved her, I sacrificed everything for her"
     m "And she chooses HIM"
+    hide mina
 
     "I looked at the ring I bought"
     "The ring I was going to give her"
@@ -413,34 +493,48 @@ label mina_route:
     "So I prepared myself and went to the local cafe"
     "And there she was..."
 
+    show mina at center
     m "You must be Ruby"
+    hide mina
 
+    show ruby at center
     r "Ah, you must be Mina"
     r "Jose talks about you all the time"
     r "You're his childhood friend, right"
+    hide ruby
 
+    show mina at center
     m "I'm more than a friend, I've known him for 15 years"
     m "I've protected him and I love him"
+    hide mina
 
+    show ruby at center
     r "Oh, I know"
     r "He tells me everything"
     r "How you followed him around, how you scared away anyone who tried to get close to him"
     r "And how you treated him like a possesion"
+    hide ruby
 
+    show mina at center
     m "That's not true!"
+    hide mina
 
+    show ruby at center
     r "Isn't it?"
     r "He told me he felt trapped, Mina"
     r "He told me you smothered him, He told me he needed space"
     r "And I....I gave him space"
     r "I let him breathe, I let him be himself"
+    hide ruby
 
     "His words stabbed me like knifes"
 
+    show ruby at center
     r "You know why he chose me?"
     r "Because I accepted him for who he is"
     r "I don't try change him, I don't try possess him"
     r "I just.... love him"
+    hide ruby
 
     "She smiled"
     "That soft, innocent smile"
@@ -476,6 +570,7 @@ label mina_route:
     "I followed them to their date"
     "And I waited"
     
+    scene park
     "The park was empty, the moon was full"
     "They were sitting on a bench"
     "Holding hands, kissing"
@@ -498,11 +593,15 @@ label mina_route:
     "Jose turned, Her eyes were wide"
     "Horrified"
 
+    show jose at center
     j "Mina...?"
     j "What...what did you do?"
+    hide jose
 
+    show mina at center
     m "I'm setting you free"
     m "I'm saving you"
+    hide mina
 
     "She tried to run, but I was too fast"
     "I grabbed her, I held her close"
@@ -511,7 +610,9 @@ label mina_route:
     "And then..."
     "I plunged the knife into her heart"
 
+    show jose at center
     j "...Why?"
+    hide jose
 
     "She whispered those words"
     "And then she was gone"
@@ -528,17 +629,23 @@ label mina_route:
     pause(1.5)
     hide text with dissolve
 
+    show detective at center
     p "And that's what happened?"
     p "You killed them both because you loved her?"
+    hide detective
 
+    show mina at center
     m "....Yes"
+    hide mina
 
+    show detective at center
     p "Mina..."
     p "Love isn't about possession"
     p "Love isn't about control"
     p "Love is about letting go"
     p "If you truly loved her...."
     p "You would have let her be happy"
+    hide detective
 
     "He was right"
     "He was so right"
@@ -607,9 +714,11 @@ label jose_route:
     "I thought she was protecting me"
     "But then it became suffocating"
 
+    show mina at center
     m "Who were you talking to?"
     m "Why didn't you wait for me?"
     m "You shouldn't be friends with them"
+    hide mina
 
     "She was everywhere, she was always there"
     "And I couldn't breathe"
@@ -618,6 +727,7 @@ label jose_route:
     "I felt like I was drowning"
 
     "My parents sent me to the hospital"
+    scene hospital
     "The psychiatric ward"
     "I stayed there for a year"
     "I was diagnosed with gender dysphoria and anxiety"
@@ -666,16 +776,20 @@ label jose_route:
     "And for the first tme in my life..."
     "I felt free"
 
+    show jose at center
     j "Ruby... I have to tell you something"
     j "I'm not... I'm not like other people"
     j "I was born female"
     j "But I Identify as male"
+    hide jose
 
+    show ruby at center
     r "I know..."
     r "I've known since we started talkng"
     r "It does not matter to me"
     r "You're Jose"
     r "The person I fell in love with"
+    hide ruby
 
     "I cried, I cred soo much"
     "Because someone finally saw me"
@@ -687,7 +801,9 @@ label jose_route:
     "But then one day..."
     "I couldn't hide it anymore"
 
+    show jose at center
     j "Mina... I have a girlfriend now"
+    hide jose
 
     "The look on her face was devastating"
     "Pure betrayal and heartbreak"
@@ -717,6 +833,7 @@ label jose_route:
     "From such an awful fate"
 
     "It happened at the park"
+    scene park
     "We were sitting on a bench"
     "And we were kissing"
     "And all of a sudden..."
@@ -727,27 +844,41 @@ label jose_route:
     "She had a knife"
     "And her eyes... her eyes were empty"
 
+    show jose at center
     j "Mina! What are you doing?"
+    hide jose
 
+    show mina at center
     m "I'm saving you and setting you free"
+    hide mina
 
+    show jose at center
     j "From what?"
+    hide jose
 
+    show mina at center
     m "From him, from the world"
     m "From everyone who wants to take you away from me"
+    hide mina
 
     "I tried my best to run, but she grabbed me"
     "She held me close, I could feel her breath on my neck"
 
+    show mina at center
     m "I've loved you for the past 15 years"
     m "You were mine"
     m "You were always mine"
+    hide mina
 
+    show jose at center
     j "Mina... please..."
     j "I was never yours"
+    hide jose
 
+    show mina at center
     m "I know"
     m "And because of that I won't allow you to be with anyone else"
+    hide mina
 
     "And then..."
     "I felt the knife penetrate my body"
@@ -827,13 +958,19 @@ label ruby_route:
     "The need to be accepted"
     "She was perfect prey"
 
+    show ruby at center
     r "Hi there, I'm Ruby"
+    hide ruby
 
+    show jose at center
     j "Oh! Hi! I'm...I'm Jose"
     j "You're really pretty"
+    hide jose
 
+    show ruby at center
     r "Thank you~"
     r "You're not so bad yourself"
+    hide ruby
 
     "She blushed, so easy"
     "We went on a few dates"
@@ -848,14 +985,20 @@ label ruby_route:
 
     "And I knew I could use that"
 
+    show ruby at center
     r "Mina sounds so possesive"
     r "You should be careful"
+    hide ruby
 
+    show jose at center
     j "She's not... she's not like that"
     j "She just cares about me"
+    hide jose
 
+    show ruby at center
     r "Are you sure?"
     r "It sounds like she wants to own you"
+    hide ruby
 
     "Jose was silent, She knew I was right"
     "She just didn't want to admit it"
@@ -863,8 +1006,10 @@ label ruby_route:
     "I kissed her forehead"
     "Gentle, Soft, Reassuring"
 
+    show ruby at center
     r "I'm here now, I'll protect you"
     r "I'll never treat you like a possesion"
+    hide ruby
 
     "She cried then thanked me"
     "I could tell that she had already fallen in love with me"
@@ -882,31 +1027,41 @@ label ruby_route:
     "She confronted me at the cafe"
     "She was angry, so angry"
     
+    show mina at center
     m "You're Ruby?"
+    hide mina
 
+    show ruby at center
     r "Ah, you must be Mina"
     r "Jose talks about you all the time"
     r "You're her childhood friend, right?"
+    hide ruby
 
     "I could see the jealousy in her eyes"
     "She was just like me, she wanted to own Jose"
     "She wanted to control her"
     "But I was better at it"
 
+    show mina at center
     m "I love her"
+    hide mina
 
+    show ruby at center
     r "Oh, I know"
     r "She tells me everything"
+    hide ruby
 
     "I told her exactly what she did not want to hear"
     "How Jose felt trapped, how she needed space"
     "How I was the one who saved her"
     "And the look on Mina's face... Priceless"
 
+    show ruby at center
     r "You know why she chose me?"
     r "Because I accept her for who she is"
     r "I don't try change her nor possess her"
     r "I just... love her"
+    hide ruby
 
     "Mina walked away, she was furious"
     "She was broken and most importantly she was planning something"
@@ -920,6 +1075,7 @@ label ruby_route:
     "And I have always won"
     "But not this time..."
 
+    scene park
     "We were at the park, Jose and I"
     "She was so happy"
     "I saw Mina approaching with a knife"
@@ -977,13 +1133,20 @@ label ending_choice:
             jump ending_dream
 
 label ending_murder:
+    scene case
+    show detective at center
     p "SO...."
     "You killed them both"
+    hide detective
 
+    show mina at center
     m "... Yes"
+    hide mina
 
+    show detective at center
     p "And how do you feel now, Mina?"
     p "Now that they're gone and you'll never see them again"
+    hide detective
 
     "I thought about it, about Jose"
     "Her smile, her laugh, her voice"
@@ -994,19 +1157,27 @@ label ending_murder:
     "And I thought about myself"
     "The monster I had become"
 
+    show mina at center
     m ".... Empty"
     m "I feel.... empty"
+    hide mina
 
+    show detective at center
     p "And what about the love?"
     p "The love you felt for her"
+    hide detective
 
+    show mina at center
     m "Is it love?"
     m "If you destroy what you love?"
     m "If you kill the goddess you claim to adore"
+    hide mina
 
+    show detective at center
     p "No, Mina"
     p "That's not love, that's obsession"
     p "And obsession is just love that forgot to let go"
+    hide detective
 
     "I cried"
     "For the first tme in a long time"
@@ -1029,11 +1200,13 @@ label ending_murder:
     "My Josephine, my angel, my victim"
     "And I whsisper to the darkness"
 
+    show mina at center
     m "I'm sorry"
     m "I'm so sorry"
     m "I loved you"
     m "I loved you more than anything"
     m "And I still do"
+    hide mina
 
     "But love is not enough"
 
@@ -1045,6 +1218,7 @@ label ending_murder:
     jump credits
 
 label ending_dream:
+    scene hospital
     "I open my eyes"
     "Everything is bright and white"
     "I'm in a hospital"
@@ -1057,26 +1231,36 @@ label ending_dream:
     "Her head resting on my bed, her hand holding mine"
     "She looks peaceful but tired"
 
+    show mina at center
     m "....Jose?"
+    hide mina
 
     "She raises her head, her eyes open and she sees me"
     "Tears immediatly fill her eyes"
 
+    show jose at center
     j "Mina!"
     j "Mina, you're awake!"
     j "Oj my god, you're awake"
+    hide jose
 
     "She hugs me"
 
+    show jose at center
     j "I thought you were gone"
     j "I thought I had lost you"
     j "I was so scared"
+    hide jose
 
+    show mina at center
     m ".... What Happened?"
+    hide mina
 
+    show jose at center
     j "You were in a coma, Mina"
     j "For 3 years after a serious car accident"
     j "You... you nearly died"
+    hide jose
 
     "A car accident?"
     "That cannot be right"
@@ -1091,37 +1275,51 @@ label ending_dream:
     "Horrible, terrible dreams"
     "Or were they?"
 
+    show jose at center
     j "The doctors said you might never wake up"
     j "But I came here daily never giving up hope"
     j "I spoke to you about everything"
     j "My life, my identity and how I felt"
+    hide jose
 
+    show mina at center
     m ".... You did"
+    hide mina
 
+    show jose at center
     j "YES!"
     j "I told you how scared and confused I was"
     j "How  wanted to be seen for who I really am"
+    hide jose
 
     "She took my hands, her eyes were sincere"
 
+    show jose at center
     j "Mina... I love you"
     j "In fact I've always loved you"
     j "But I was scared of what you would think, scared of being myself"
+    hide jose
 
     "She's... she's telling me this now?"
     "After everything, After that horrible dream"
 
+    show jose at center
     j "When I thought I was losing you I began to realize something"
     j "Life is too short to be scared"
     j "Life is too scared to hide"
     j "So I want to be honest with both you and me"
     j "I love you"
+    hide jose
 
     "I smiled then cried then held her hand"
 
+    show mina at center
     m "I love you too, Jose"
+    hide mina
 
+    show jose at center
     j "I know, I was just too blind to see it"
+    hide jose
 
     "And for the first time in my life..."
     "I felt free"
@@ -1166,26 +1364,6 @@ label credits:
     hide text with dissolve
     pause(1)
 
-    show text "Story and Writing : THE DOCTOR" with dissolve
-    pause(1.5)
-    hide text with dissolve
-    pause(1)
-
-    show text "Art : Slash" with dissolve
-    pause(1.5)
-    hide text with dissolve
-    pause(1)
-
-    show text "Music : THE DOCTOR" with dissolve
-    pause(1.5)
-    hide text with dissolve
-    pause(1)
-
-    show text "Programming : THE DOCTOR" with dissolve
-    pause(1.5)
-    hide text with dissolve
-    pause(1)
-
     show text "TO EVERYONE WHO HAS EVER FELT UNSEEN \n YOU ARE NOT ALONE" with dissolve
     pause(1.5)
     hide text with dissolve
@@ -1197,4 +1375,3 @@ label credits:
     pause(1)
 
     return
-

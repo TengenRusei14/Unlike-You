@@ -287,8 +287,8 @@ screen navigation():
     vbox:
         style_prefix "navigation"
 
-        xpos gui.navigation_xpos
-        yalign 0.5
+        xalign 0.1
+        yalign 0.7
 
         spacing gui.navigation_spacing
 
