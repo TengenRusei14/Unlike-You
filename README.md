@@ -19,17 +19,29 @@ One tragedy.
 And a choice that changes everything.
 
 ## Features
-- Three Routes
+
+### Three Routes
 - Play as Mina, Jose, or Ruby — each reveals a different side of the story.
-- Dark Romance
+  
+### Dark Romance
 - A psychological thriller wrapped in obsessive love and toxic devotion.
-- Multiple Endings
+  
+### Multiple Endings
 - Your choices shape the fate of every character.
-- Original Art
+  
+### Original Art
 - Hand-drawn character sprites and atmospheric backgrounds.
-- Content Warnings
-- Click to view content warnings (contains spoilers)
-- 
+  
+### Content Warnings
+- This game contains theme's such as violence, obsession and manipulation
+  Player descretion is adviced
+
+## Instructions
+- Click on the link in the about to visit the game's itch.io page
+- Download and extract zip
+- Click and run UnlikeYou.exe
+- Enjoy
+  
 # Credits
 Valerian Crow & Two Souls Studio
 
