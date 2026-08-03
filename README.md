@@ -39,6 +39,7 @@ And a choice that changes everything.
 ## Instructions
 - Click on the link in the about to visit the game's itch.io page
 - Download and extract zip
+- Or play web version
 - Click and run UnlikeYou.exe
 - Enjoy
   
