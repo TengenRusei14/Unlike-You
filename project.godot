@@ -26,13 +26,19 @@ directories/dch_directory={
 "jose": "res://Characters/jose.dch",
 "mina": "res://Characters/mina.dch",
 "n": "res://Characters/n.dch",
+"nn": "res://Characters/nn.dch",
 "ruby": "res://Characters/ruby.dch",
 "tv": "res://Characters/tv.dch",
 "veronica": "res://Characters/veronica.dch",
 "voice": "res://Characters/voice.dch"
 }
 directories/dtl_directory={
+"ending": "res://TimeLines/ending.dtl",
 "intro": "res://TimeLines/intro.dtl",
+"josephine_route": "res://TimeLines/josephine_route.dtl",
+"mina_route": "res://TimeLines/mina_route.dtl",
+"route_choice": "res://TimeLines/route_choice.dtl",
+"ruby_route": "res://TimeLines/ruby_route.dtl",
 "start": "res://TimeLines/start.dtl"
 }
 layout/style_directory={}
@@ -72,6 +78,9 @@ audio/channel_defaults={
 
 [display]
 
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=2
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 

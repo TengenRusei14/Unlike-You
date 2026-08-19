@@ -48,3 +48,77 @@ mina: I followed her everywhere and scared away anyone who tried to get close to
 mina: I treated her like a princess so that she would not need love from anyone else
 mina: I thought she was mine, That if I loved her enough she would eventually love me back
 mina: Then it happened
+
+mina: Jose began having mental health issues and was later hospitalized for a year
+mina: That was the last year of primary school and the longest year of my life
+mina: Luckily that did not affect her studies and she was able to move onto highschool
+mina: But when she returned she had changed
+mina: She no longer dressed as a tomboy and decided to fully identify as a male
+mina: She wanted me to use he/him pronouns despite knowing the truth
+mina: And I hated it, I hated seeing my Goddess turn into something I could no longer recognize
+
+mina: But I had to play along, Because if I did'nt...
+mina: I might lose her forever
+mina: Highschool had ended and we decided to go to university together, We were still inseperable
+mina: Everyone thought we were dating and I let them believe it
+mina: Because that was the closest I would ever be to having her
+
+mina: Then came the 3rd of June 2026
+mina: The day everything shattered...
+
+jose: MINAA!! Wake up!!! We're going to be late for class
+mina: I opened my eyes
+mina: She was looking at me from beside my bed
+mina: She was already dressed, her smile was bright...a little too bright
+
+What will you do
+- Wake Up
+	n: Okay! Okay! I'm waking up!
+	mina: I jumped out of bed, I could not be late, not today
+	mina: That day was her birthday and I had a plan...
+	mina: I had planned to confess to her
+	jose: Thank God for once you actually listened!
+	mina: Happy Birthday, Josephine
+	jose: Aww you remember, But hurry up we're going to be late
+- Sleep More
+	n: Let me sleep a bit more...I'm tired
+	mina: I was'nt tired I was scared, It was the day I was going to confess
+	jose: There's no time to sleep, Mina we're going to be late for our classes
+	n: I completely forgot about that....
+	mina: I had scrambled out of bed almost ruining everything, I had to tell her today
+	n: Happy Birthday by the way
+	jose: Thanks! Now hurry up
+
+mina: I began to dress quickly and leave the house, Josephine was outside waiting for me amd we began running to class
+mina: And during that time we had our usual conversation. SHe spoke for minutes on end and I became bored of what she was saying
+mina: Until one sentence made me snap back into all of it
+
+jose: I have a girlfriend now
+
+n: What?, When?, How did this happen?
+
+jose: We met on a dating app called Bu Xiang Ni
+jose: He took me out 3 days ago and I could'nt tell you since you were busy at the gym all day
+
+mina: 3 Days and she was already dating someone
+mina: 3 Days and everything I have built over the years and spent time protecting broken
+
+What do you say
+- I'm happy for you
+	n: I'm...I'm really happy for you Josephine
+	n: Really I am
+	mina: I lied through my teeth my heart was bleeding but I smiled because maybe that's what she wanted
+	If she was happy then maybe...that was enough
+	jump route_choice/
+- Don't trust anyone you meet online
+	n: Jose...don't trust anyone you meet online you don't know who he really is
+	jose: Mina don't be like that, He's not like that
+	n: How do you know? You've only known him for 3 days
+	jose: Because when I'm with him, I feel like myself
+	jose: The real me and don't you want me to be happy
+	mina: I wanted her to be happy but not with someone who is not me
+	mina: Not some stranger especially some random...girl!
+	n: ...I just don't want you to get hurt
+	jose: I wont because Ruby would not hurt me
+	mina: she said it with such conviction as if she had known him her entire life and I have never been there for her
+	jump route_choice/

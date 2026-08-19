@@ -1,0 +1,19 @@
+mina: After that day everything had changed, I could no longer stop thinking about Ruby
+mina: Who was she and why did Josephine chose her? What did she have that I did not?
+mina: I wanted to understand but I would only achieve that by seeing him
+
+Whose Perspective Do you wish to play
+This affects how you see the story
+It is recommended you play by Mina then Josephine then Ruby
+BUT THE CHOICE IS YOURS!!!
+
+Whose perspective do you wish to play
+- Mina's perspective
+	n: I need to know what made him so special, I needed to see her happiness for myself even if it destroys me
+	jump mina_route/
+- Josephine's perspective
+	n: I need to understand why she would choose him, I needed to see it through her eyes...Why was she so different from me
+	jump josephine_route/
+- Ruby's perspective
+	I need to understand how her was able to get her, Did he truly love her? Or was he just playing with her heart?
+	jump ruby_route/
