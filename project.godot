@@ -41,7 +41,10 @@ directories/dtl_directory={
 "ruby_route": "res://TimeLines/ruby_route.dtl",
 "start": "res://TimeLines/start.dtl"
 }
-layout/style_directory={}
+layout/style_directory={
+"": "res://Ui/textbox.tres",
+"textbox": "res://Ui/textbox.tres"
+}
 text/letter_speed=0.02
 text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1
@@ -75,6 +78,22 @@ audio/channel_defaults={
 "volume": 0.0
 }
 }
+glossary/default_case_sensitive=true
+layout/style_list=["res://Ui/textbox.tres"]
+layout/default_style="res://Ui/textbox.tres"
+variables={}
+save/autosave=true
+save/autosave_mode=1
+save/default_slot="AutoSave_"
+history/simple_history_enabled=true
+history/simple_history_save=true
+history/full_history_enabled=false
+translation/enabled=false
+translation/original_locale="en"
+translation/file_mode=1
+translation/translation_folder=""
+translation/save_mode=0
+translation/add_separator=false
 
 [display]
 
